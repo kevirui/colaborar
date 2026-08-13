@@ -1,0 +1,49 @@
+# Dependencies
+node_modules
+.pnpm-store
+.pnpm-debug.log*
+
+# Next.js
+apps/web/.next/
+apps/web/out/
+apps/web/build
+.vercel
+
+# NestJS / Build outputs
+apps/api/dist/
+dist/
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+apps/*/.env
+apps/*/.env.local
+!apps/*/.env.example
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Testing / Coverage
+coverage/
+.nyc_output/

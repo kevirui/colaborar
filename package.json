@@ -1,0 +1,10 @@
+{
+  "name": "colaborar-monorepo",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter api start:dev",
+    "dev:web": "pnpm --filter web dev",
+    "build:api": "pnpm --filter api build",
+    "build:web": "pnpm --filter web build"
+  }
+}
